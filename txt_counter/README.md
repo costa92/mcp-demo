@@ -44,8 +44,7 @@
 - 建议使用虚拟环境（如 `.venv`）隔离依赖
 
 ```bash
-python3.12 -m venv .venv
-source .venv/bin/activate
+ uv venv --python 3.12.0
 ```
 
 ### 2. 安装依赖
