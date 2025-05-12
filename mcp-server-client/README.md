@@ -104,15 +104,8 @@ uv run client.py http://localhost:8000/sse
 {
   "mcpServers": {
     "web-search": {
-      "type": "stdio",
-      "command": "uv",
-      "args": [
-        "--directory",
-        "/home/hellotalk/code/ai/mcp-demo/mcp-server-client", 
-        "run",
-        "client.py",
-        "http://localhost:8000/sse"
-      ]
+      "type": "http",
+      "url": "http://localhost:8000/sse"
     }
   }
 }
